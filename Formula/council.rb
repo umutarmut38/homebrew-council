@@ -3,28 +3,28 @@
 class Council < Formula
   desc "Multi-agent orchestration TUI for competing AI coding-agent CLIs"
   homepage "https://github.com/umutarmut38/council"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/umutarmut38/council/releases/download/v0.3.0/council_v0.3.0_darwin_arm64.tar.gz"
-      sha256 "bf0a787f96b3b7a5f43eb7867bd6b0d382590b376478c37c2b71916b089bd8d6"
+      url "https://github.com/umutarmut38/council/releases/download/v0.4.0/council_v0.4.0_darwin_arm64.tar.gz"
+      sha256 "40a1bafcf2b4dcd6337a7b9f1c6948ac06e00f4b0df7e0b6df667acbb735c6ae"
     end
     on_intel do
-      url "https://github.com/umutarmut38/council/releases/download/v0.3.0/council_v0.3.0_darwin_amd64.tar.gz"
-      sha256 "6d22d5a88025f24d8488c1f38eab348bb57d59dc024023c5790e3f0faf5a341a"
+      url "https://github.com/umutarmut38/council/releases/download/v0.4.0/council_v0.4.0_darwin_amd64.tar.gz"
+      sha256 "7729c9d48182e078dbc2415aa50c3d1de9d1df9fd6cafb5e773a993eefb05134"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/umutarmut38/council/releases/download/v0.3.0/council_v0.3.0_linux_arm64.tar.gz"
-      sha256 "e1cc4408fc4585bbb635826163ebfd6a9b3fdbc8e3a0b27801fc8157ee14afbe"
+      url "https://github.com/umutarmut38/council/releases/download/v0.4.0/council_v0.4.0_linux_arm64.tar.gz"
+      sha256 "863f6831697fac1269367fea905465edc481fa772f26ee43c3598303acadfdb7"
     end
     on_intel do
-      url "https://github.com/umutarmut38/council/releases/download/v0.3.0/council_v0.3.0_linux_amd64.tar.gz"
-      sha256 "cb3bb158943dd52d8bb631522a54454ad7d51f53737a35d7b55244d74e0b484a"
+      url "https://github.com/umutarmut38/council/releases/download/v0.4.0/council_v0.4.0_linux_amd64.tar.gz"
+      sha256 "772414995de5fb064af1ca191b56e7f917a3c1f423352ebbc56d99de78dd26dd"
     end
   end
 
